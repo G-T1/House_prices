@@ -1,0 +1,30 @@
+#OUTPUT
+
+#<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 100 entries, 0 to 99
+Data columns (total 4 columns):
+ #   Column           Non-Null Count  Dtype
+---  ------           --------------  -----
+ 0   Size             100 non-null    int64
+ 1   Location         100 non-null    object
+ 2   Number of Rooms  100 non-null    int64
+ 3   Price            100 non-null    int64
+dtypes: int64(3), object(1)
+memory usage: 3.3+ KB
+None
+              Size  Number of Rooms          Price
+count   100.000000       100.000000     100.000000
+mean   2669.940000         4.690000  477559.510000
+std    1276.786321         2.665511  192928.633593
+min     534.000000         1.000000  136931.000000
+25%    1519.750000         3.000000  310726.250000
+50%    2820.500000         4.000000  494701.000000
+75%    3616.000000         7.000000  620580.000000
+max    4993.000000         9.000000  864149.000000
+RMSE: 5970.35416304336
+R^2 Score: 0.9988207677517169
+                     Coefficient
+Size               190369.318373
+Location_urban      38643.554431
+Number of Rooms     27390.101001
+Location_suburban   20263.383050 #
